@@ -14,7 +14,7 @@ function screenshot() {
   now=`date '+%Y-%m-%d %H:%M:%S'`
   echo "[$now] $rtsp_ip"
   # kill ffmpeg after 15 seconds
-  timeout -k 10 15 ffmpeg -i "$uproxy_url/$rtsp_ip:5146/" -f image2 -vframes 3 -loglevel quiet $snapshot_dir/$rtsp_ip.jpeg
+  ffmpeg -t 3 -i "$uproxy_url/$rtsp_ip:5146/" -f image2 -vframes 3 -loglevel quiet $snapshot_dir/$rtsp_ip.jpeg
 }
 
 # 239.77 网段
