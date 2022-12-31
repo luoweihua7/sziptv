@@ -13,7 +13,7 @@ function screenshot() {
   rtsp_ip=$1
   now=`date '+%Y-%m-%d %H:%M:%S'`
   echo "[$now] $rtsp_ip"
-  # kill ffmpeg after 15 seconds
+  # 尝试截图，并自动结束长时间未能截图的进程，实现自动轮训下一个IP截图
   ffmpeg -t 3 -i "$uproxy_url/$rtsp_ip:5146/" -f image2 -vframes 3 -loglevel quiet $snapshot_dir/$rtsp_ip.jpeg
 }
 
