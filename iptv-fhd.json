@@ -13,75 +13,6 @@
     ]
   },
   {
-    "channel": "CCTV-10",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.134",
-      "239.77.1.113"
-    ]
-  },
-  {
-    "channel": "CCTV-11",
-    "type": "FHD",
-    "multicast": [
-      "239.77.1.238"
-    ]
-  },
-  {
-    "channel": "CCTV-12",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.136",
-      "239.77.1.109"
-    ]
-  },
-  {
-    "channel": "CCTV-13",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.188",
-      "239.253.43.196"
-    ]
-  },
-  {
-    "channel": "CCTV-14",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.133",
-      "239.77.1.161"
-    ]
-  },
-  {
-    "channel": "CCTV-15",
-    "type": "FHD",
-    "multicast": [
-      "239.77.1.239"
-    ]
-  },
-  {
-    "channel": "CCTV-16",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.165",
-      "239.77.1.76"
-    ]
-  },
-  {
-    "channel": "CCTV-16-4K",
-    "type": "FHD",
-    "multicast": [
-      "239.77.1.98"
-    ]
-  },
-  {
-    "channel": "CCTV-17",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.198",
-      "239.77.1.121"
-    ]
-  },
-  {
     "channel": "CCTV-2",
     "type": "FHD",
     "multicast": [
@@ -151,6 +82,75 @@
     "multicast": [
       "239.77.0.135",
       "239.77.1.160"
+    ]
+  },
+  {
+    "channel": "CCTV-10",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.134",
+      "239.77.1.113"
+    ]
+  },
+  {
+    "channel": "CCTV-11",
+    "type": "FHD",
+    "multicast": [
+      "239.77.1.238"
+    ]
+  },
+  {
+    "channel": "CCTV-12",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.136",
+      "239.77.1.109"
+    ]
+  },
+  {
+    "channel": "CCTV-13",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.188",
+      "239.253.43.196"
+    ]
+  },
+  {
+    "channel": "CCTV-14",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.133",
+      "239.77.1.161"
+    ]
+  },
+  {
+    "channel": "CCTV-15",
+    "type": "FHD",
+    "multicast": [
+      "239.77.1.239"
+    ]
+  },
+  {
+    "channel": "CCTV-16",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.165",
+      "239.77.1.76"
+    ]
+  },
+  {
+    "channel": "CCTV-16-4K",
+    "type": "FHD",
+    "multicast": [
+      "239.77.1.98"
+    ]
+  },
+  {
+    "channel": "CCTV-17",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.198",
+      "239.77.1.121"
     ]
   },
   {
@@ -303,35 +303,19 @@
     ]
   },
   {
-    "channel": "东方卫视",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.98",
-      "239.77.1.218"
-    ]
-  },
-  {
-    "channel": "求索生活",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.153"
-    ]
-  },
-  {
-    "channel": "湖南卫视",
-    "type": "FHD",
-    "multicast": [
-      "239.77.0.88",
-      "239.77.0.127",
-      "239.77.1.5"
-    ]
-  },
-  {
     "channel": "东南卫视",
     "type": "FHD",
     "multicast": [
       "239.77.0.146",
       "239.77.1.104"
+    ]
+  },
+  {
+    "channel": "东方卫视",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.98",
+      "239.77.1.218"
     ]
   },
   {
@@ -561,6 +545,13 @@
     ]
   },
   {
+    "channel": "广州南国都市",
+    "type": "FHD",
+    "multicast": [
+      "239.253.43.99"
+    ]
+  },
+  {
     "channel": "广州影视",
     "type": "FHD",
     "multicast": [
@@ -686,10 +677,17 @@
     ]
   },
   {
-    "channel": "求索",
+    "channel": "求索记录",
     "type": "FHD",
     "multicast": [
       "239.77.0.21"
+    ]
+  },
+  {
+    "channel": "求索生活",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.153"
     ]
   },
   {
@@ -884,6 +882,15 @@
     ]
   },
   {
+    "channel": "湖南卫视",
+    "type": "FHD",
+    "multicast": [
+      "239.77.0.88",
+      "239.77.0.127",
+      "239.77.1.5"
+    ]
+  },
+  {
     "channel": "珠海-1",
     "type": "FHD",
     "multicast": [
@@ -909,13 +916,6 @@
     "type": "FHD",
     "multicast": [
       "239.253.43.105"
-    ]
-  },
-  {
-    "channel": "广州南国都市",
-    "type": "FHD",
-    "multicast": [
-      "239.253.43.99"
     ]
   },
   {
